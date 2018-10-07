@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, user-scalable=no">
+   	<meta name="author" content="Martin Vega">
+   	<meta name="keywords" content="html,svg,video,audio,images">
+   	<meta name="description" content="Hoja de Vida - Martin Vega">
+   	<title>Hoja de Vida - Martin Vega</title>
+</head>
+
+<body>
+	<header>
+		<svg>
+			<image width="600px" height="500px" xlink:href="img/logo.svg" desc="Logo" title="Logo"></image>
+    	</svg>
+    
+    	<h1>Hoja de vida</h1>
+    		<h2>Martin Ramon Vega Cegarra</h2>
+        		<h3>08 de Mayo de 1992</h3>
+            		<h4>Venezuela - Trujillo</h4>
+		<ul>
+    		<li><a href="index.html">Inicio</a></li>
+        	<li><a href="educacion.html">Educación</a></li>
+        	<li><a href="experiencia.html">Experiencia</a></li>
+  		</ul>
+    
+    	<h2>Educación</h2>
+    		
+            <table border="1" cellspacing="2" cellpadding="2">
+            	<thead>
+                	<th>Año</th>
+                    <th>Institución.</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+              	</thead>
+                <tbody>
+                	<tr>
+                		<td>2009</td>
+                    	<td>Juan Pablo Perez Bonaldi.</td>
+                    	<td>Maracaibo</td>
+                    	<td>Si</td>
+                    </tr>
+                    <tr>
+                		<td>2014</td>
+                    	<td>IUTEPAL San Francisco.</td>
+                    	<td>Maracaibo</td>
+                    	<td>Si</td>
+                    </tr>
+                    <tr>
+                		<td>2018</td>
+                    	<td>Next University.</td>
+                    	<td>Maracaibo</td>
+                    	<td>No</td>
+                    </tr>
+              	</tbody>
+         	</table>
+            
+            <form autocomplete="off" name="Agregar Estudios"><br/>
+           		<legend><strong>Agregar Estudios</strong></legend>
+                    
+              	<p><strong>Año</strong>
+                	<select>
+                		<option value="1">2010</option>
+              			<option value="2">2011</option>
+              			<option value="3">2012</option>
+                        <option value="4">2013</option>
+              			<option value="5">2014</option>
+              			<option value="6">2015</option>
+                        <option value="7">2016</option>
+						<option value="8">2017</option>
+						<option value="9">2018</option>
+          			</select>
+              	</p>
+                    
+              	<p><strong>Institución</strong>
+                	<label for="Institucion"></label>
+                		<input type="text" required><br/>
+               	</p>
+                    
+               	<p><strong>Lugar</strong>
+                    <label for="Lugar"></label>
+                    	<textarea for="Lugar"></textarea>
+                </p>
+                          
+               	<p><strong>¿Culminó?</strong>
+                    <label for="Culminar"></label>
+           				<input type="radio" option>Si</option>
+              			<input type="radio" option>No</option>	
+           		</p>
+                    
+               	<p>
+                	<input type="button" name="Enviar" value="Enviar">
+         		</p>
+        	</form>  	
+	</header>
+    
+    <footer>
+    	<p><a href="mailto:martinvegacegarra@gmail.com">Correo electrónico</a> | <a href="#">Teléfono</a> | <a href="#">Lord Cochrane 209</a></p>
+   	</footer>
+        
+</body>
+</html>
